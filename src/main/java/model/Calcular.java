@@ -71,7 +71,7 @@ public class Calcular {
         return "valor 1.: "+this.getValor1() +
                 "\nValor 2.: "+this.getValor2() +
                 "\nDificuldade.: "+this.getDificuldade() +
-                "\nOperação.: "+this.getOperacao();
+                "\nOperação.: "+op;
     }
 
     public boolean soma(int resposta){
