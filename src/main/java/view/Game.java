@@ -61,6 +61,11 @@ public class Game {
 
         if(continuar == 0){
             Game.jogar();
+        }else{
+            System.out.println("\n\n\n\n********************************************************************************");
+            System.out.println("Você fez "+Game.score+" Ponto(s)");
+            System.out.println("\nAté a próxima *_*");
+            System.exit(0);
         }
 
     }
